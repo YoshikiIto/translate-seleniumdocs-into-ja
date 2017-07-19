@@ -31,22 +31,16 @@ Seleniumの公式ドキュメントは、今でも[**www.seleniumhq.org** reposi
 
 新しいドキュメントへの貢献は、次項のコードへの貢献と同じ手順となっています。ある程度の時間[more about it](https://seleniumhq.github.io/docs/intro.html#about_this_documentation)を読んで、ドキュメントに慣れ親しむことをおすすめします。
 
-## Code Contributions
+## コードによる貢献
+Seleniumプロジェクトは、新たなコントリビュータを歓迎します。重要で価値ある貢献を継続的に行う個人は_コミッタ_となり、プロジェクトへのコミット権を得ます。
 
-The Selenium project welcomes new contributors. Individuals making
-significant and valuable contributions over time are made _Committers_
-and given commit-access to the project.
+もし簡単そうなバグをお探しなら、Githubの[Easyとラベルのついたissue一覧](https://github.com/SeleniumHQ/selenium/issues?q=is%3Aopen+is%3Aissue+label%3AE-easy)を見てください。
 
-If you're looking for easy bugs, have a look at
-[issues labelled E-easy](https://github.com/SeleniumHQ/selenium/issues?q=is%3Aopen+is%3Aissue+label%3AE-easy)
-on Github.
+本章では、貢献する際の流れについて説明します。
 
-This document will guide you through the contribution process.
+### ステップ1: フォーク
 
-### Step 1: Fork
-
-Fork the project [on Github](https://github.com/seleniumhq/selenium)
-and check out your copy locally.
+[Github上のプロジェクト](https://github.com/seleniumhq/selenium)をフォークし、ローカルにチェックアウトします。
 
 ```shell
 % git clone git@github.com:username/selenium.git
@@ -54,7 +48,7 @@ and check out your copy locally.
 % git remote add upstream git://github.com/seleniumhq/selenium.git
 ```
 
-#### Dependencies
+#### 依存関係
 
 We bundle dependencies in the _third-party/_ directory that is not
 part of the proper project. Any changes to files in this directory or
